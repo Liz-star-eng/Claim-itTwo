@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClaimItUpdates</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="main">
+    <main>
+      <section>
+        <section class="mainContent">
+          <div class="">
+            <aside class="rightBar" id="mySidenav">
+              <div class="download">
+                <h2><i class="fa fa-download fa-bounce"></i> Resources</h2>
+                <hr />
+                <div class="card">
+                  <div class="card-header" role="tab" id="accordionHeadingOne">
+                    <div class="accordion-head">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#userManual"
+                        aria-expanded="false"
+                        aria-controls="userManual"
+                        class="collapsed"
+                      >
+                        <i class="fa fa-angle-down" aria-hidden="true">
+                          <h3>User manual</h3></i
+                        >
+                      </a>
+                    </div>
+                  </div>
+
+                  <div
+                    id="userManual"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="accordionHeadingOne"
+                    aria-expanded="false"
+                  >
+                    <div class="card-block">
+                      <a
+                        href="docs/CLAIM-it Document_Standalone Users 2.0.2.pdf"
+                        download
+                        ><i class="fa fa-book"></i> Standalone Users</a
+                      >
+                      <hr />
+                      <a
+                        href="docs/CLAIM-it User's Manual Quick Guide(HMS users) v2.0.pdf"
+                        download
+                        ><i class="fa fa-book"></i> HMS User</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="download">
+                <div class="card">
+                  <div class="card-header" role="tab" id="accordionHeadingOne">
+                    <div class="accordion-head">
+                      <a
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                        href="#integrations"
+                        aria-expanded="false"
+                        aria-controls="userManual"
+                        class="collapsed"
+                      >
+                        <i class="fa fa-angle-down" aria-hidden="true">
+                          <h3>Integrations</h3></i
+                        >
+                      </a>
+                    </div>
+                  </div>
+
+                  <div
+                    id="integrations"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="accordionHeadingOne"
+                    aria-expanded="false"
+                  >
+                    <div class="card-block">
+                      <a
+                        href="docs/ClaimIT_XML_specifications 2.1.pdf"
+                        download=""
+                        ><i class="fa fa-cog"></i> XML Specification</a
+                      >
+                      <hr />
+                      <a href="docs/XML_Sample.xml" download=""
+                        ><i class="fa fa-file"></i> Sample XML</a
+                      >
+                      <hr />
+                      <a
+                        href="docs/Update Directions_Centralized System.pdf"
+                        download=""
+                        ><i class="fa fa-gears"></i> API Specification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <section class="middle">
+            <div class="updates">
+              <h2><i class="fa fa-cog"></i> Update Release</h2>
+            </div>
+            <div class="middleContent">
+              <div id="Sept-23-Update" class="tabContent">
+                <h3>Release Update – September 1, 2023</h3>
+                <br />
+                <h3>New + Improved</h3>
+                <hr />
+                <ul class="main-points">
+                  <li>Improved claims submission process and feedback.</li>
+                  <li>Tracking of ongoing claims submissions.</li>
+                  <li>
+                    AImplementation of Value Based Care (VBC) functionality for
+                    affected providers.
+                  </li>
+                  <li>
+                    Inclusion of information support page to provide users with
+                    vital information and resources
+                  </li>
+                  <li>
+                    Enhanced troubleshooting feature to allow for application
+                    recovery.
+                  </li>
+                  <li>New and updated claims validation rules.</li>
+                </ul>
+                <ul class="sub-points">
+                  <li>
+                    Warning and confirmation for patients with ages above 110
+                    years before saving.
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Application optimization to allow for quicker loading and
+                    processing of claims.
+                  </li>
+                  <li>Update of submission advice report;</li>
+                </ul>
+                <ul class="sub-points">
+                  <li>
+                    Value Based Care patients report (NB: This report is limited
+                    to providers on the VBC program).
+                  </li>
+                </ul>
+              </div>
+
+              <div id="Feb-23-Update" class="tabContent">
+                <h3>Release Update – February 10, 2023</h3>
+                <br />
+                <h3>New + Improved</h3>
+                <hr />
+                <ul>
+                  <li>Implementation of new Medicines List</li>
+                  <li>
+                    Implementation of new Service Tariffs for all facility
+                    levels
+                  </li>
+                  <li>New and updated claims validation rules.</li>
+                </ul>
+                <ul class="sub-points">
+                  <li>
+                    Requirement of attachments for all diagnostic and pharmacy
+                    only claims.
+                  </li>
+                  <li>Requirement of attachment for statin drugs</li>
+                </ul>
+                <ul>
+                  <li>
+                    Introduction of x64 bit version of the CLAIMit application
+                  </li>
+                  <li>
+                    Inclusion of Tariff Operational Manual as part of
+                    downloadable documents on CLAIMit website as part of user
+                    manuals.
+                  </li>
+                  <li>
+                    Enhanced troubleshooting feature to allow for application
+                    recovery.
+                  </li>
+                  <li>
+                    Improved feedback on claims submission and general claims
+                    validation.
+                  </li>
+                </ul>
+              </div>
+
+              <div id="Oct-22-Update" class="tabContent">
+                <h3>Release Update – October 31, 2022</h3>
+                <br />
+                <h3>New + Improved</h3>
+                <hr />
+                <ul class="main-points">
+                  <li>New user interface and color schemes.</li>
+                  <li>Enhanced claims generation form.</li>
+                  <li>Add comments to claims during generation.</li>
+                  <li>
+                    Save and retrieve membership data during claims generation[a
+                    mini patient records system].
+                  </li>
+                  <li>New and updated claims validation rules.</li>
+                </ul>
+                <ul class="sub-points">
+                  <li>Warning for single day medical claims.</li>
+                  <li>
+                    Principal GDRG selection required for all IPD claims with
+                    multiple GDRGs.
+                  </li>
+                  <li>
+                    Warning on potential oversupply of drugs for medicines that
+                    come in courses.
+                  </li>
+                  <li>Enhancement of potentially duplicate claims.</li>
+                </ul>
+                <ul>
+                  <li>Introduction of a dashboard on critical indicators.</li>
+                  <li>
+                    Simplified user processes for improved user interactivity.
+                  </li>
+                  <li>Exporting of claims.</li>
+                  <li>Claims submissions.</li>
+                  <li>Importing and merging of claims.</li>
+                  <li>
+                    General ease of accessibility to features and existing
+                    functionality.
+                  </li>
+                  <li>
+                    Enhanced troubleshooting feature to allow for application
+                    recovery.
+                  </li>
+                  <li>
+                    Improved feedback on claims submission and general claims
+                    validation.
+                  </li>
+                  <li>
+                    Hospital Management System Integration Toolkit for improved
+                    XML import and API integration.
+                  </li>
+                </ul>
+                <br />
+                <h3>Fixes</h3>
+                <ul>
+                  <li>Submission advice statistics and reporting</li>
+                  <li>Claims submission response</li>
+                  <li>Application update</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <aside class="leftBar">
+            <div class="leftSideBar">
+              <div>
+                <img class="logo" src="images/nhis.png" alt="" />
+                <img
+                  class="respLogo"
+                  src="images/trimmed-logo-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+              <div class="tab">
+                <button
+                  class="tablinks"
+                  onclick="openUpdate(event, 'Sept-23-Update')"
+                  id="defaultOpen"
+                >
+                  <i class="fa fa-calendar-check-o"></i> Sept-23-update
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openUpdate(event, 'Feb-23-Update')"
+                >
+                  <i class="fa fa-calendar-check-o"></i> Feb-23-update
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openUpdate(event, 'Oct-22-Update')"
+                >
+                  <i class="fa fa-calendar-check-o"></i> Oct-22-update
+                </button>
+              </div>
+              <div>
+                <i
+                  class="fa fa-bars rightBarIcon"
+                  onclick="openNav()"
+                  id="bar"
+                ></i>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </section>
+      <section class="subFooter">
+        <h3 class="subFooterHeader">
+          <iconify-icon
+            class="downIcon"
+            icon="line-md:download-loop"
+          ></iconify-icon>
+          Get your Downloads
+        </h3>
+        <div class="bottomSection">
+          <div class="setUp">
+            <i><iconify-icon icon="game-icons:car-wheel"></iconify-icon></i>
+            <h3>Full Setup</h3>
+            <div class="bits">
+              <a href=""><button>64bit</button></a>
+              <a href=""><button>32bit</button></a>
+            </div>
+          </div>
+          <a href="" class="updateFile">
+            <span href="" download>
+              <i><iconify-icon icon="ic:baseline-update"></iconify-icon></i>
+              <h3>Update File</h3>
+            </span>
+          </a>
+          <a href="" class="tariff">
+            <span href="" download>
+              <i><iconify-icon icon="mdi:book-cog-outline"></iconify-icon></i>
+              <h3>Tariff Manual</h3>
+            </span>
+          </a>
+        </div>
+        <div class="botSect">
+          <div class="fSetup">
+            <h3>Full Setup</h3>
+            <a href="">64bit</a>
+            <a href="">32bit</a>
+          </div>
+          <div class="UT">
+            <a href=""><h3>Update File</h3></a>
+            <a href=""><h3>Tariff Manual</h3></a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="mainFooter">
+          <section>
+            <div class="support">
+              <h3>Support</h3>
+              <hr id="primary" />
+              <a href=""
+                ><iconify-icon
+                  class="icon"
+                  icon="material-symbols:attach-email-outline-sharp"
+                ></iconify-icon>
+                claimit@nhia.gov.gh</a
+              >
+              <a href=""
+                ><iconify-icon
+                  class="icon"
+                  icon="mdi:alternate-email"
+                ></iconify-icon>
+                eclaim@nhia.gov.gh</a
+              >
+            </div>
+            <div class="website">
+              <h3>Website</h3>
+              <hr id="primary" />
+              <a href=""
+                ><iconify-icon class="icon" icon="mdi:web-sync"></iconify-icon>
+                http://claimit.nhia.gov.gh</a
+              >
+              <a class="Copyright"
+                ><iconify-icon
+                  class="icon"
+                  icon="ph:copyright-fill"
+                ></iconify-icon>
+                2023 Copyright</a
+              >
+            </div>
+          </section>
+        </div>
+      </footer>
+      <div class="CopyRight">
+        <div></div>
+        <div>
+          <a
+            ><iconify-icon class="icon" icon="ph:copyright-fill"></iconify-icon>
+            2023 Copyright</a
+          >
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
